@@ -7,8 +7,23 @@
 //
 
 import UIKit
+import Firebase
 
 class FirstViewController: UIViewController {
+    
+    
+    
+    @IBAction func onSignOutTapped(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            performSegue(withIdentifier: "signOutAccount", sender: nil)
+        } catch {
+            print(error)
+        }
+    }
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
