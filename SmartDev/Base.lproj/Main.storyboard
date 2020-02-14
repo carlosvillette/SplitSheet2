@@ -369,9 +369,8 @@
                                     <segue destination="7vV-IB-yQ9" kind="show" id="B7D-9W-nMG"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Join Existing Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjM-MR-eZs">
-                                <rect key="frame" x="93" y="68" width="160" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Join Existing Session" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qjM-MR-eZs">
+                                <rect key="frame" x="107" y="68" width="160" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -380,6 +379,9 @@
                         <color key="backgroundColor" red="0.93333333330000001" green="0.89411764709999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="vde-f0-Xv7" firstAttribute="top" secondItem="oFy-ks-fXr" secondAttribute="bottom" id="B1T-R7-HNW"/>
+                            <constraint firstItem="qjM-MR-eZs" firstAttribute="centerX" secondItem="Seb-Kp-4ju" secondAttribute="centerX" id="FlO-Hv-y61"/>
+                            <constraint firstItem="qjM-MR-eZs" firstAttribute="leading" secondItem="Seb-Kp-4ju" secondAttribute="leadingMargin" constant="91" id="M5P-Yt-6dg"/>
+                            <constraint firstItem="qjM-MR-eZs" firstAttribute="top" secondItem="oFy-ks-fXr" secondAttribute="bottom" constant="48" id="l8x-U3-IZz"/>
                             <constraint firstItem="vde-f0-Xv7" firstAttribute="leading" secondItem="Seb-Kp-4ju" secondAttribute="leadingMargin" id="xty-6a-6Jp"/>
                         </constraints>
                     </view>
@@ -409,9 +411,8 @@
                                     <segue destination="7vV-IB-yQ9" kind="show" id="5IM-w4-KZo"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Explore Sessions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ay-XW-yxp">
-                                <rect key="frame" x="122" y="45" width="130" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Explore Sessions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ay-XW-yxp">
+                                <rect key="frame" x="122" y="69" width="130" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -421,6 +422,8 @@
                         <constraints>
                             <constraint firstItem="cV1-Iu-w2x" firstAttribute="leading" secondItem="td9-xU-fXR" secondAttribute="leadingMargin" id="49c-4C-nyE"/>
                             <constraint firstItem="cV1-Iu-w2x" firstAttribute="top" secondItem="qqS-pi-WTH" secondAttribute="bottom" id="May-st-nuC"/>
+                            <constraint firstItem="7Ay-XW-yxp" firstAttribute="top" secondItem="qqS-pi-WTH" secondAttribute="bottom" constant="49" id="OXl-BV-RcD"/>
+                            <constraint firstItem="7Ay-XW-yxp" firstAttribute="centerX" secondItem="td9-xU-fXR" secondAttribute="centerX" id="xba-W2-o9v"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -816,7 +819,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="Jdt-8J-7IT"/>
         <segue reference="BLg-8L-WB2"/>
-        <segue reference="0l6-oP-pbp"/>
+        <segue reference="5IM-w4-KZo"/>
         <segue reference="bQF-Gp-dri"/>
     </inferredMetricsTieBreakers>
 </document>
